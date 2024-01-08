@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+  .navbar .hamburger {
+    display: block;
+    color: white;
+  }
+
+  .navbar .container-links ul,
+  .navbar .container-links .btn {
+    display: none;
+  }
+
+  main .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main .row .col {
+    width: 100%;
+  }
+
+  main .terza-sezione .col-sx {
+    display: flex;
+    justify-content: center;
+  }
+
+  main .terza-sezione .img-sx {
+    width: 60%;
+  }
+
+  main .settima-sezione .col-30 {
+    margin-top: 3em;
+  }
+
+  main .settima-sezione .apici {
+    left: 120px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  main .row .col-50 {
+    width: 100%;
+  }
+}
